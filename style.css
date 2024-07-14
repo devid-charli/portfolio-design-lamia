@@ -10,19 +10,58 @@ padding: 0;
 margin: 0;
 
 box-sizing: border-box;
+font-weight: bold;
+
+
+}
+
+.main content{
+
+min-height: 100vh;
+
+width: 100%;
+
+
+
 
 
 
 }
 
 
+.navlist{
 
 
+background-color: chartreuse;
+width: 100%;
+height: 7vh;
+justify-content: center;
+align-items: center;
+position: fixed;
+}
+
+.navlist ul{
+
+display: flex;
+gap: 30px;
+
+text-align: center;
+justify-content: center;
+align-items: center;
+}
 
 
+.navlist li{
 
 
+list-style: none;
 
+}
 
+.navlist ul li a{
+text-transform: uppercase;
+text-decoration: none;
+color: black;
 
+}
 
