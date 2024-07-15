@@ -16,7 +16,7 @@ font-weight: bold;
 }
 
 .main content{
-
+display: flex;
 min-height: 100vh;
 
 width: 100%;
@@ -30,9 +30,9 @@ width: 100%;
 
 
 .navlist{
+display: flex;
+background-color: blueviolet;
 
-
-background-color: chartreuse;
 width: 100%;
 height: 7vh;
 justify-content: center;
@@ -64,4 +64,43 @@ text-decoration: none;
 color: black;
 
 }
+
+.left-box{
+
+    background-color: black;
+    width: 70%;
+
+}
+
+
+
+
+
+
+.right-box{
+
+    background-color: rgb(20, 118, 175);
+    width: 30%;
+
+}
+
+
+
+
+
+
+
+
+.left-box, .right-box{
+
+
+height: 100vh;
+
+
+
+}
+
+
+
+
 
